@@ -1,0 +1,2 @@
+setAlias.sh
+setEditor.sh
