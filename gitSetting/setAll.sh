@@ -1,2 +1,3 @@
-setAlias.sh
-setEditor.sh
+alias.sh
+editor.sh
+ffToFalse.sh
