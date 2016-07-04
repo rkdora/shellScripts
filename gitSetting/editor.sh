@@ -1,1 +1,1 @@
-git config --global core.editor emacs
+git config --global core.editor vi

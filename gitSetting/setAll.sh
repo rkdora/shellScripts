@@ -1,3 +1,3 @@
-alias.sh
-editor.sh
-ffToFalse.sh
+./alias.sh
+./editor.sh
+./ffToFalse.sh
