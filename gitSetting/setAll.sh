@@ -1,6 +1,7 @@
-./alias.sh
-./editor.sh
-./ffToFalse.sh
-./color.sh
-./pull.sh
+for file in *.sh
+do
+  if [ $file != "setAll.sh" ] ; then
+    . ./$file
+  fi
+done
 
