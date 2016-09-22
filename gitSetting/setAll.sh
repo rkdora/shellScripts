@@ -1,7 +1,5 @@
 for file in *.sh
 do
-  if [ $file != "setAll.sh" ] ; then
-    . ./$file
-  fi
+  [ $file = "setAll.sh" ] && continue
+  . ./$file
 done
-
