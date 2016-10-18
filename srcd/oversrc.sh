@@ -1,12 +1,14 @@
 #!/bin/sh
 
+lastDir=/
 while :
 do
   nowDir=`pwd`
   dirName=`basename $nowDir`
   [ "$dirName" = "/" ] && break
-  [ "$dirName" = "src" ] && cd .. && break
+  [ "$lastDir" = "src" ] && cd .. && break
+  lastDir=$dirName
   cd ..
 done
 
-echo $dirName
+echo $nowDir
