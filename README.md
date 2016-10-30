@@ -13,7 +13,7 @@ apt-getの以下を行います
 - update
 - upgrade
 - autoremove
-- clean
+- autoclean
 
 ## LICENSE
 Licensed under the MIT License, see LICENSE.txt.
