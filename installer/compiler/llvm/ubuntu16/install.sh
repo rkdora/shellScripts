@@ -3,3 +3,5 @@ sudo sh -c 'echo "deb-src http://apt.llvm.org/xenial/ llvm-toolchain-xenial main
 wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
 sudo apt update
 sudo apt install -y clang
+sudo apt upgrade -y
+sudo apt autoremove -y
